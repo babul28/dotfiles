@@ -2,7 +2,7 @@
 
 # populate common directories
 echo "Creating Projects and Workspace directory in home..."
-mkdir -p ~/{Projects, Workspace}
+mkdir -p ~/Projects, Workspace, LearningSomething
 
 # update repository apps
 sudo apt update
