@@ -17,9 +17,8 @@ This is the configuration of my workstation when one day I have to reinstall fro
 **Install Scripts**
 
 ```sh
-sh -c "${curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/core.sh}"
-
-sh -c "${curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/main.sh}"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/core.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/main.sh)"
 ```
 
 **More Steps**
@@ -35,7 +34,7 @@ sh -c "${curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubu
 **Install Scripts**
 
 ```sh
-Hopefully, I can buy this stuff soon...
+Hopefully, I can buy this stuff as soon as possible...
 
 ```
 
@@ -48,3 +47,7 @@ Hopefully, I can buy this stuff soon...
 ```sh
 
 ```
+
+---
+
+copyright © 2020 by [Miftahul Lubab](https://github.com/babul28)
