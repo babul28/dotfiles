@@ -17,8 +17,16 @@ This is the configuration of my workstation when one day I have to reinstall fro
 **Install Scripts**
 
 ```sh
+sh -c "${curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/core.sh}"
 
+sh -c "${curl -fsSL https://raw.githubusercontent.com/babul28/dotfiles/main/.ubuntu/main.sh}"
 ```
+
+**More Steps**
+
+- You need to install node js manually and setting \$PATH on .zshrc file.
+- You need to install php7.4 and composer if you working with PHP proggraming language.
+- You need to install go lang manually if you working with go proggraming language.
 
 ---
 
@@ -27,6 +35,7 @@ This is the configuration of my workstation when one day I have to reinstall fro
 **Install Scripts**
 
 ```sh
+Hopefully, I can buy this stuff soon...
 
 ```
 
