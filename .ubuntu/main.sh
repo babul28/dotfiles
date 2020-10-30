@@ -14,20 +14,25 @@ sudo snap install \
   discord \
   telegram-desktop \
   spotify \
-  code \
   postman \
+
+sudo snap install \
   gitkraken \
-  goland
+  --classic
+
+sudo snap install \
+  code \
+  --classic
 
 # prep git
 echo "Configuring git..."
-git config --global user.name "Griko Nibras" &&
-  git config --global user.email "git@griko.id" &&
+git config --global user.name "Miftahul lubab" &&
+  git config --global user.email "miftahul.lubab20@gmail.com" &&
   git config --global init.defaultBranch main
 
 # prep npm and yarn
-echo "Installing npm, yarn, and various packages..."
-npm -g i npm yarn &&
-  yarn global add eslint prettier serve
+# echo "Installing npm, yarn, and various packages..."
+# npm -g i npm yarn &&
+#   yarn global add eslint prettier serve
 
 echo "Done! ✨"
